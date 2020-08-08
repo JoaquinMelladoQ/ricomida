@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    text-align: -webkit-center;
+    background-color: #ffffff;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 37pt;
+    width: 137pt;
+    height: 46pt;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.navbar-nav{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    background-color: #373A3C;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Main section */
+
+.pizza figure img{
+    width: 100%;
+}
+
+.content h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: #373A3C;
+    text-align: left;
+    margin-right: 60px;
+    width: 80%;
+}
+
+.content p {
+    width: 80%;
+    color: #373A3C;
+    text-align: left;
+}
+
+
+.button-main {
+    text-align: left;
+    padding-left: 35px;
+}
+
+
+.content hr {
+    height: 1px;
+    width: 100%;
+    color: #000000;
+}
+
+.hr-carousel {
+    color: #000000;
+    width: 100%;
+}
+
+
+/* Tooltip */
+
+.tooltip-inner{
+    background-color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #373A3C;
+}
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #373A3C;
+}
+
+
+/* Carousel */
+
+.carousel-item img{
+    width: 233px;
+    height: 170px;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+/* Card */
+
+.card img {
+    position: relative;
+    width: 18rem;
+}
+
+.card-body h5 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 25pt;
+    color: #373A3C;
+    text-align: center;
+}
+
+.card-body p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 15pt;
+    color: #373A3C;
+    width: 213pt;
+    height: 19pt;
+    text-align: left;
+}
+
+.card-body button {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    color: #373A3C;
+    text-align: center;
+    text-decoration: none;
+    border-color: #DDDDDD;
+}
+
+
+/* Article-section */
+
+article h2,
+article p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    text-align: left;
+    color: #373A3C;
+}
+
+
+
+
+/* Card deck section */
+
+.card-deck-section h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25pt;
+    color: #373A3C;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card-body-2 h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 17pt;
+    color: #373A3C;
+    font-weight: 700;
+}
+
+.card-body-2 p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16pt;
+    color: #373A3C;
+    font-weight: normal;
+}
+
+/* Newsletter section */
+
+.newsletter {
+    height: 400pt;
+}
+
+.ricomida-icon {
+    padding-top: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 20pt;
+}
+
+.h-dos {
+    font-family: 'Cabin', sans-serif;
+    padding-top: 100px;
+    font-weight: 700;
+}
+
+.h-cinco{ 
+    display: contents;
+}
+
+.btn {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+/* Footer section*/
+
+.footer {
+    line-height: 0;
+    height: 127pt;
+}
+
+.ricomida-footer {
+    font-family: 'Lobster', cursive;
+    font-size: 37pt;
+    width: 137pt;
+    height: 56pt;
+    display: flex;
+    align-items: flex-end;
+}
+
